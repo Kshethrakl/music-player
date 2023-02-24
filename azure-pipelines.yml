@@ -5,7 +5,10 @@
 
 trigger:
 - develop
-
+- task: DotNetCoreCLI@2
+  inputs:
+    command: 'build'
+    projects: 'D:\music_repo\MusicPlayer\MusicPlayer\bin'
 pool:
   vmImage: ubuntu-latest
 
