@@ -10,7 +10,7 @@ trigger:
     command: 'build'
     projects: 'D:\music_repo\MusicPlayer\MusicPlayer\bin'
 pool:
-  vmImage: ubuntu-latest
+  vmImage: windows-latest
 
 steps:
 - script: echo Hello, world!
