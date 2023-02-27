@@ -1,5 +1,4 @@
 # Starter pipeline
-- task: DotNetCoreCLI@2
 - task: ArchiveFiles@2
   inputs:
     rootFolderOrFile: '$(Build.BinariesDirectory)'
