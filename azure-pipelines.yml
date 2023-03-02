@@ -16,7 +16,9 @@
 - task: DotNetCoreCLI@2
   inputs:
     command: 'build'
-    projects: 'D:\music_repo\MusicPlayer\MusicPlayer\bin'
+    projects: - task: DotNetCoreCLI@2
+  inputs:
+    command: 'build'
 pool:
   vmImage: windows-latest
 
